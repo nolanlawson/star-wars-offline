@@ -1,4 +1,5 @@
 {
+  "name": "star-wars-offline",
   "devDependencies": {
     "apache-server-configs": "^2.7.1",
     "babel-core": "^6.0.15",
