@@ -10,8 +10,12 @@ function renderPerson(person) {
             <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone">
               <div class="mdl-card__supporting-text">
                 <h4>${person.name}</h4>
-                this is where we'll talk about a particular character. maybe provide some short info to grab
-                your attention.
+                <p>
+                  <strong>Gender:</strong> ${person.gender} </br/>
+                  <strong>Hair color:</strong> ${person.hair_color} </br/>
+                  <strong>Height: </strong> ${(person.height / 100)}m </br/>
+                  <strong>Weight: </strong> ${person.height}kg
+                </p>
               </div>
               <div class="mdl-card__actions">
                 <a href="#" class="mdl-button">learn more</a>
