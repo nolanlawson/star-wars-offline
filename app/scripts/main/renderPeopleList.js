@@ -14,7 +14,7 @@ function renderPerson(person) {
                   <strong>Gender:</strong> ${person.gender} </br/>
                   <strong>Hair color:</strong> ${person.hair_color} </br/>
                   <strong>Height: </strong> ${(person.height / 100)}m </br/>
-                  <strong>Weight: </strong> ${person.height}kg
+                  <strong>Weight: </strong> ${person.mass}kg
                 </p>
               </div>
               <div class="mdl-card__actions">
