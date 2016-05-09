@@ -19,6 +19,8 @@
 /* eslint-env browser */
 
 import setupServiceWorker from './setupServiceWorker';
+import renderPeopleList from './renderPeopleList';
 
 setupServiceWorker();
-// Your custom JavaScript goes here
+
+renderPeopleList();
