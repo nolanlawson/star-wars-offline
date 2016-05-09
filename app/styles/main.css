@@ -236,3 +236,9 @@ a {
 .mdl-demo .mdl-layout__tab-bar .mdl-layout__tab.is-active::after {
   color: #333333;
 }
+
+.cover-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
