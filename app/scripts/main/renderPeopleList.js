@@ -22,7 +22,7 @@ function renderPerson(person) {
               </div>
             </div>
             <div class="mdl-card mdl-cell mdl-cell--3-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone cover-image"
-              style="background-image: url('/images/people/person_${person.id}.jpg');">
+              style="background-image: url('images/people/person_${person.id}.jpg');">
             </div>
           </section>`;
 }
